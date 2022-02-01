@@ -1,0 +1,129 @@
+//@import "variables";
+
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "/font-icon/fonts" !default;
+
+$iconf-10d: "\e900";
+$iconf-10n: "\e901";
+$iconf-09d: "\e902";
+$iconf-09n: "\e903";
+$iconf-13d: "\e904";
+$iconf-01n: "\e905";
+$iconf-02n: "\e906";
+$iconf-50d: "\e907";
+$iconf-03d: "\e908";
+$iconf-wi-windy: "\e909";
+$iconf-11d: "\e90a";
+$iconf-wi-fog: "\e90b";
+$iconf-01d: "\e90c";
+$iconf-02d: "\e90d";
+$iconf-04d: "\e90e";
+
+@font-face {
+	font-family: "#{$icomoon-font-family}";
+	src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?o1amds")
+			format("truetype"),
+		url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?o1amds")
+			format("woff"),
+		url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?o1amds##{$icomoon-font-family}")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="iconf-"],
+[class*=" iconf-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "#{$icomoon-font-family}" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconf-10d {
+	&:before {
+		content: $iconf-10d;
+	}
+}
+.iconf-10n {
+	&:before {
+		content: $iconf-10n;
+	}
+}
+.iconf-09d {
+	&:before {
+		content: $iconf-09d;
+	}
+}
+.iconf-09n {
+	&:before {
+		content: $iconf-09n;
+	}
+}
+.iconf-13d,
+.iconf-13n {
+	&:before {
+		content: $iconf-13d;
+	}
+}
+.iconf-01n {
+	&:before {
+		content: $iconf-01n;
+	}
+}
+.iconf-02n {
+	&:before {
+		content: $iconf-02n;
+	}
+}
+.iconf-50d,
+.iconf-50n {
+	&:before {
+		content: $iconf-50d;
+	}
+}
+.iconf-03d {
+	&:before {
+		content: $iconf-03d;
+	}
+}
+.iconf-wi-windy {
+	&:before {
+		content: $iconf-wi-windy;
+	}
+}
+.iconf-11d,
+.iconf-11n {
+	&:before {
+		content: $iconf-11d;
+	}
+}
+.iconf-wi-fog {
+	&:before {
+		content: $iconf-wi-fog;
+	}
+}
+.iconf-01d {
+	&:before {
+		content: $iconf-01d;
+	}
+}
+.iconf-02d {
+	&:before {
+		content: $iconf-02d;
+	}
+}
+.iconf-04d,
+.iconf-04n {
+	&:before {
+		content: $iconf-04d;
+	}
+}
